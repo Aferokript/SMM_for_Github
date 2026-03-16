@@ -48,8 +48,8 @@ def is_shorted_link(token, url_to_check):
 def main():
     try:
         load_dotenv()
-        parser = argparse.ArgumentParser(description='Программа для работы с вк ссылками')
         token = os.environ['VK_TOKEN']
+        parser = argparse.ArgumentParser(description='Программа для работы с вк ссылками')
         parser.add_argument('link', help='вставьте ссылку')
         args = parser.parse_args()
         user_link = args.link
