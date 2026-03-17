@@ -1,0 +1,192 @@
+__pycache__/
+.py*[codz]
+*$py.class
+
+# Расширения C
+*.so
+
+# Распространение / упаковка
+.Python
+строить/
+develop-eggs/
+расстояние/
+Загрузки/
+яйца/
+.яйца/
+библиотека/
+lib64/
+части/
+сдист/
+var/
+колеса/
+поделиться/python-wheels/
+.информация о яйце*/
+.установленный.cfg
+*.egg
+ПРОЯВЛЯЮЩИЙСЯ
+
+# PyInstaller
+#   Usually these files are written by a python script from a template
+#   before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+# uv.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+# poetry.lock
+# poetry.toml
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
+#   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
+# pdm.lock
+# pdm.toml
+.pdm-python
+.pdm-build/
+
+# pixi
+#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
+# pixi.lock
+#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
+#   in the .venv directory. It is recommended not to include this directory in version control.
+.pixi
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# Redis
+*.rdb
+*.aof
+*.pid
+
+# RabbitMQ
+mnesia/
+rabbitmq/
+rabbitmq-data/
+
+# ActiveMQ
+activemq-data/
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+венв.бак/
+
+# Настройки проекта Spyder
+.spyderproject
+.шпионский проект
+
+# Настройки проекта Rope
+.канатный проект
+
+# документация mkdocs
+/сайт
+
+# мой
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Средство проверки типов Pyre
+.погребальный костер/
+
+# Статический анализатор типов pytype
+.pytype/
+
+# Отладочные символы Cython
+cython_debug/
+
+# PyCharm
+# Специальный шаблон JetBrains хранится в отдельном файле JetBrains.gitignore, который можно
+# можно найти по адресу https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+# и может быть добавлен в глобальный файл gitignore или объединен с этим файлом. Для более ядерной версии
+# (не рекомендуется) можно раскомментировать, чтобы игнорировать всю папку с идеями.
+# .идея/
+
+# Аннотация
+# Abstra — это платформа для автоматизации процессов на основе искусственного интеллекта.
+# Игнорировать каталоги, содержащие учетные данные пользователей, локальные состояния и настройки.
+# Узнайте больше на https://abstra.io/docs
+.аннотация/
+
+# Код Visual Studio
+# Шаблон для Visual Studio Code хранится в отдельном файле VisualStudioCode.gitignore 
+#, который можно найти по адресу https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+# и может быть добавлен в глобальный файл gitignore или объединен с этим файлом. Однако, если хотите, можете 
+# Чтобы игнорировать всю папку vscode, раскомментируйте следующий код
+# .vscode/
+
+# Жесткие материалы:
+.ruff_cache/
+
+# Файл конфигурации PyPI
+.pypirc
+
+# Маримо
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# Освещенный потоком
+.streamlit/secrets.toml
