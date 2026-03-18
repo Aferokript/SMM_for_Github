@@ -42,7 +42,7 @@ def is_shorted_link(token, url_to_check):
     response = requests.get('https://api.vk.com/method/utils.getShortLink', params=params)
     response.raise_for_status()
     short_url = response.json()
-    return 'error' not in short_url and 'vk.cc/' in url_to_check
+    return 'error' not in short_url
 
 
 def main():
